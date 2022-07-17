@@ -1,0 +1,31 @@
+AddDefaultCharset utf-8
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www.wulkanizacjawasilków.pl$
+RewriteRule ^(.*)$ https://www.wulkanizacjawasilków.pl/$1 [R=301,L]
+
+ErrorDocument 404 https://www.wulkanizacjawasilków.pl/error_404.html
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE text/javascript
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>
+
+#Specify a Vary: Accept-Encoding header
+<IfModule mod_headers.c>
+  <FilesMatch ".(js|css|xml|gz|html)$">
+    Header append Vary: Accept-Encoding
+  </FilesMatch>
+</IfModule>
+
+RewriteEngine On 
+RewriteCond %{HTTPS} off 
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+RewriteCond %{HTTP_HOST} ^wulkanizacjawasilków\.pl$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.wulkanizacjawasilków\.pl$
+RewriteRule ^cennik\.html\/?(.*)$ "https\:\/\/www\.wulkanizacjawasilków\.pl\/cennik\.html$1" [R=301,L]
+

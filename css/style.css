@@ -1,0 +1,172 @@
+.pad {
+	padding: 25px 20px
+}
+
+.marg-t {
+	margin-top: 13px
+}
+
+.map-responsive {
+	overflow: hidden;
+	position: relative;
+	height: 500px
+}
+
+.map-responsive iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute
+}
+
+.hg {
+	background-image: url(https://www.wulkanizacjawasilkow.pl/images/quote.webp);
+	height: 500px;
+	display: flex;
+	align-items: center;
+}
+
+.df{
+    display: flex;
+}
+
+.pricesheetfield{
+    margin: 10px auto;
+}
+
+.wyrownaj {
+	margin: 0 auto
+}
+
+.white {
+	color: #fff
+}
+
+.tb {
+	background-image: url(https://www.wulkanizacjawasilkow.pl/images/baner7.webp);
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	padding-bottom: 16%;
+	font-size: 64px
+}
+
+.sub {
+	font-size: 32px
+}
+
+.pad0 {
+	padding: 0
+}
+
+.fnt-48 {
+	font-size: 48px
+}
+
+.fnt-18 {
+	font-size: 18px
+}
+
+.trb-pad {
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-top: 0
+}
+
+.op-80 {
+	opacity: 80%;
+}
+
+.c-inherit {
+	color: inherit;
+}
+
+.pb-0 {
+	padding-bottom: 0;
+}
+
+.bor-0 {
+	border: 0;
+}
+
+.googletagmanager {
+	display: none;
+	visibility: hidden;
+}
+
+@media (max-width:1500px) {
+	.tb {
+		padding-bottom: 40%;
+		background-image: url(https://www.wulkanizacjawasilkow.pl/images/baner7.webp);
+	}
+}
+
+@media (max-width:1024px) {
+	.tb {
+		padding-bottom: 65%;
+		background-image: url(https://www.wulkanizacjawasilkow.pl/images/baner7_m.webp);
+	}
+}
+
+@media (max-width:900px) {
+	.tb {
+		padding-bottom: 75%;
+	}
+	.sub {
+		font-size: 25px;
+	}
+}
+
+@media (max-width:800px) {
+	.tb {
+		padding-bottom: 83%;
+	}
+	.sub {
+		font-size: 25px;
+	}
+}
+
+@media (max-width:767px) {
+	.reverse-columns {
+		flex-direction: column-reverse;
+		display: flex;
+	}
+}
+
+@media (max-width:600px) {
+	.tb {
+		padding-bottom: 87%;
+		background-image: url(https://www.wulkanizacjawasilkow.pl/images/baner7_s.webp)
+	}
+	.sub {
+		font-size: 23px
+	}
+}
+
+@media (max-width:515px) {
+	.tb {
+		padding-bottom: 105%
+	}
+	.sub {
+		font-size: 23px
+	}
+}
+
+@media (max-width:415px) {
+	.tb {
+		padding-bottom: 115%
+	}
+	.sub {
+		font-size: 20px
+	}
+}
+
+@media (max-width:380px) {
+	.tb {
+		padding-bottom: 120%
+	}
+	.sub {
+		font-size: 20px
+	}
+}

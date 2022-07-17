@@ -1,0 +1,59 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "image": [
+    "https://www.wulkanizacjawasilków.pl/images/logo.webp",
+    "https://www.wulkanizacjawasilków.pl/images/tire-change.webp",
+    "https://www.wulkanizacjawasilków.pl/images/car-repair-silhouette.webp"
+   ],
+  "name": "Profesjonalny Serwis Opon Felix",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Brzozowa 2",
+    "addressLocality": "Wasilków",
+    "postalCode": "16-010",
+    "addressCountry": "PL"
+  },
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Dawid Malinowski"
+    }
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 53.21420308930489,
+    "longitude": 23.21323477687948
+  },
+  "url": "https://www.wulkanizacjawasilków.pl/",
+  "telephone": "+48602191429",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "8:00",
+      "closes": "18:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "8:00",
+      "closes": "14:00"
+    }
+  ],
+  "priceRange": "złzł"
+}
+</script>
